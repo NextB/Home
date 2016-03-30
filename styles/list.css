@@ -1,0 +1,11 @@
+#slideshow{
+    width: 50px;
+    height: 54px;
+    position: relative;
+    overflow: hidden;
+}
+#preview{
+    border: 1px solid #699;
+    background-color: lightgreen;
+    border-color: cornflowerblue;
+}

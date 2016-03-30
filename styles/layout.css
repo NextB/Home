@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(../images/background.gif);
+    margin: 1em 10%;
+    background-attachment: fixed;
+    background-position: top left;
+    background-repeat: repeat-x;
+    max-width: 80em;
+}
+#header{
+    background-image: url(../images/guitarist.gif);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    border: 0.1em solid;
+    border-bottom-width: 0;
+}
+#navigation{
+    background-image: url(../images/navbar.gif);
+    background-position: bottom left;
+    background-repeat: repeat-x;
+    border: 0.1em solid;
+    border-bottom-width: 0;
+    border-top-width: 0;
+    padding-left: 10%;
+}
+#navigation ul{
+    width: 100%;
+    overflow: hidden;
+    border-left-width: 0.1em;
+    border-left-style: solid;
+}
+#navigation li{
+    display: inline;
+}
+#navigation li a{
+    display: block;
+    float: left;
+    padding: 0.5em 2em;
+    border-right: .1em solid;
+}
+#content {
+    border-width: 0.1em;
+    border-style: solid;
+    border-top-width: 0;
+    padding: 2em 10%;
+    line-height: 1.8em;
+}
+label{
+    display: block;
+}
+fieldset{
+    border: 0;
+}
